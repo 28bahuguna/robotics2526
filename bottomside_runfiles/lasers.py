@@ -1,5 +1,4 @@
 import time, lgpio, gpiod
-from gpiod import Direction, Value
 import socket, json
 #variables
 ip_address = "192.168.1.68"
