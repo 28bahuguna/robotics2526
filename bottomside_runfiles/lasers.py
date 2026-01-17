@@ -1,9 +1,8 @@
 import time, lgpio, gpiod
-from gpiod.line import Direction, Value
+from gpiod import Direction, Value
 import socket, json
-
 #variables
-#ip_address = "192.168.1.100"
+ip_address = "192.168.1.68"
 port = 3030
 #pump gpio
 pump = 23
