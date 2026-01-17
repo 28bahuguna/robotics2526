@@ -6,6 +6,8 @@ port = 3030
 #pump gpio
 pump = 23
 
+#TEST
+
 
 def main(ip_address):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
